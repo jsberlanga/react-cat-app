@@ -3,8 +3,27 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   text-align: center;
-  background-color: #e0e0e0;
+  background: rgb(37, 37, 37);
+  background: linear-gradient(to left, #E9E4F0, #D3CCE3, #E9E4F0);
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.headerItem {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  outline: 0.1px solid #D3CCE3;
+  padding: 10px 50px;
+  background: rgb(37, 37, 37);
+  background: linear-gradient(to left, #D3CCE3, #E9E4F0, #D3CCE3);
 }
